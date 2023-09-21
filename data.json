@@ -1,0 +1,157 @@
+
+  {
+    "services": [
+      {
+        "name": "Portrait Photography",
+        "images": [
+          "Portrait-1.jpg",
+          "Portrait-2.jpg",
+          "Portrait-3.jpg",
+          "Portrait-4.jpg",
+          "Portrait-5.jpg",
+          "Portrait-6.jpg",
+          "Portrait-7.jpg",
+          "Portrait-8.jpg",
+          "Portrait-9.jpg",
+          "Portrait-10.jpg"
+        ]
+      },
+      {
+        "name": "wedding Photography",
+        "images": [
+          "Wedding-1.jpg",
+          "Wedding-2.jpg",
+          "Wedding-3.jpg",
+          "Wedding-4.jpg",
+          "Wedding-5.jpg",
+          "Wedding-6.jpg",
+          "Wedding-7.jpg",
+          "Wedding-8.jpg",
+          "Wedding-9.jpg",
+          "Wedding-10.jpg"
+        ]
+      },
+      {
+        "name": "Event Photography",
+        "images": [
+          "Event-1.jpg",
+          "Event-2.jpg",
+          "Event-3.jpg",
+          "Event-4.jpg",
+          "Event-5.jpg",
+          "Event-6.jpg",
+          "Event-7.jpg",
+          "Event-8.jpg",
+          "Event-9.jpg",
+          "Event-10.jpg"
+        ]
+      },
+      {
+        "name": "Commercial Photography",
+        "images": [
+          "Commercial-1.jpg",
+          "Commercial-2.jpg",
+          "Commercial-3.jpg",
+          "Commercial-4.jpg",
+          "Commercial-5.jpg",
+          "Commercial-6.jpg",
+          "Commercial-7.jpg",
+          "Commercial-8.jpg",
+          "Commercial-9.jpg",
+          "Commercial-10.jpg"
+        ]
+      },
+      {
+        "name": "Landscape Photography",
+        "images": [
+          "Landscape-1.jpg",
+          "Landscape-2.jpg",
+          "Landscape-3.jpg",
+          "Landscape-4.jpg",
+          "Landscape-5.jpg",
+          "Landscape-6.jpg",
+          "Landscape-7.jpg",
+          "Landscape-8.jpg",
+          "Landscape-9.jpg",
+          "Landscape-10.jpg"
+        ]
+      },
+      {
+        "name": "Architectural Photography",
+        "images": [
+          "Architectural-1.jpg",
+          "Architectural-2.jpg",
+          "Architectural-3.jpg",
+          "Architectural-4.jpg",
+          "Architectural-5.jpg",
+          "Architectural-6.jpg",
+          "Architectural-7.jpg",
+          "Architectural-8.jpg",
+          "Architectural-9.jpg",
+          "Architectural-10.jpg"
+        ]
+      },
+      {
+        "name": "Travel Photography",
+        "images": [
+          "Travel-1.jpg",
+          "Travel-2.jpg",
+          "Travel-3.jpg",
+          "Travel-4.jpg",
+          "Travel-5.jpg",
+          "Travel-6.jpg",
+          "Travel-7.jpg",
+          "Travel-8.jpg",
+          "Travel-9.jpg",
+          "Travel-10.jpg"
+        ]
+      },
+      {
+        "name": "Fashion Photography",
+        "images": [
+          "Fashion-1.jpg",
+          "Fashion-2.jpg",
+          "Fashion-3.jpg",
+          "Fashion-4.jpg",
+          "Fashion-5.jpg",
+          "Fashion-6.jpg",
+          "Fashion-7.jpg",
+          "Fashion-8.jpg",
+          "Fashion-9.jpg",
+          "Fashion-10.jpg"
+        ]
+      },
+      {
+        "name": "Sports Photography",
+        "images": [
+          "Sports-1.jpg",
+          "Sports-2.jpg",
+          "Sports-3.jpg",
+          "Sports-4.jpg",
+          "Sports-5.jpg",
+          "Sports-6.jpg",
+          "Sports-7.jpg",
+          "Sports-8.jpg",
+          "Sports-9.jpg",
+          "Sports-10.jpg"
+        ]
+      },
+      {
+        "name": "Pet Photography",
+        "images": [
+          "Pet-1.jpg",
+          "Pet-2.jpg",
+          "Pet-3.jpg",
+          "Pet-4.jpg",
+          "Pet-5.jpg",
+          "Pet-6.jpg",
+          "Pet-7.jpg",
+          "Pet-8.jpg",
+          "Pet-9.jpg",
+          "Pet-10.jpg"
+        ]
+      }
+    ]
+  }
+  
+  

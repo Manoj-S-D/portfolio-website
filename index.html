@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- CSS LINK     -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--   TEXT LINK BY GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--  JAVASCRIPT LINK   -->
+    <script src="script.js"></script>
+    <header>
+        <!--  NAVIGATION BUTTONS AND CHEKBOX CONVERTION SECTION   -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Manoj's portfolio</label>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+            </div>
+
+        </nav>
+    </header>
+    <!--  MAIN SECTION OF HOME PAGE   -->
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                <div>Hi, My name is <span class="purple">Manoj S D</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="images\bgg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <!--   ABOUT SECTION  -->
+        <section id="about" class="secondSection">
+            <br><br><br>
+            <span class="text_gray">done till far</span>
+            <h1>About</h1>
+            <section id="about1">
+                <div class="about-container">
+                    <div class="about-photo">
+                        <img src="images\profile.png" alt="Manoj's Profile Photo">
+                    </div>
+                    <div class="about-text">
+
+                        <div>
+                            <p>Hi, I'm Manoj, a professional photographer. You can check out my photo collections.</p>
+                        </div>
+                        <div>
+                            <p>I've been working as a photographer for the past 5 years in different locations like
+                                Bengaluru, Mysuru, Shivamogga, and Davanagere.</p>
+                        </div>
+                        <div>
+                            <p>Please go through my portfolio page and get in touch if you want to hire my services. You
+                                can also explore the types of photography services I offer.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <!--   SERVICE SECTION  -->
+        <section id="service" class="thirdSection">
+            <br><br><br><br>
+            <h1>Services</h1>
+            <!-- Service Grid Section -->
+            <section class="service-grid">
+                <!-- Service 1 PORTRAIT -->
+                <div class="service-item">
+                    <img src="images\service1.jpg" alt="Service 1">
+                    <label>Portrait Photography</label>
+                </div>
+
+                <!-- Service 2 WEDDING-->
+                <div class="service-item">
+                    <img src="images\service2.jpg" alt="Service 2">
+                    <label>Wedding Photography</label>
+                </div>
+
+                <!-- Service 3 EVENT-->
+                <div class="service-item">
+                    <img src="images\service3.jpg" alt="Service 3">
+                    <label>Event Photography</label>
+                </div>
+
+                <!-- Service 4 COMMERCIAL-->
+                <div class="service-item">
+                    <img src="images\service4.jpg" alt="Service 4">
+                    <label>Commercial Photography</label>
+                </div>
+
+                <!-- Service 5 LANDSCAPE-->
+                <div class="service-item">
+                    <img src="images\service5.png" alt="Service 5">
+                    <label>Landscape Photography</label>
+                </div>
+
+                <!-- Service 6 ARCHITECTURAL-->
+                <div class="service-item">
+                    <img src="images\service6.jpg" alt="Service 6">
+                    <label>Architectural Photography</label>
+                </div>
+
+                <!-- Service 7 TRAVEL-->
+                <div class="service-item">
+                    <img src="images\service7.jpg" alt="Service 7">
+                    <label>Travel Photography</label>
+                </div>
+
+                <!-- Service 8 FASHION-->
+                <div class="service-item">
+                    <img src="images\service8.jpg" alt="Service 8">
+                    <label>Fashion Photography</label>
+                </div>
+
+                <!-- Service 9 SPORTS-->
+                <div class="service-item">
+                    <img src="images\service9.jpg" alt="Service 9">
+                    <label>Sports Photography</label>
+                </div>
+
+                <!-- Service 10 PET-->
+                <div class="service-item">
+                    <img src="images\service10.jpg" alt="Service 10">
+                    <label>Pet Photography</label>
+                </div>
+                <!--   BUTTON TO CHECK THE IMAGES Which are been taken by photographer     -->
+                <button><a href="./images.html">Check photos here</a></button>
+
+
+            </section>
+            <!--    CONTACT SECTION (CONTAINS CONTACT FORM WHICH WILL SEND RESPONSE TO EMAIL OF PHOTOGRAPHER)   -->
+        </section>
+        <hr>
+        <section id="contact" class="fourthSection">
+            <br><br><br><br><br>
+            <h1>Contact</h1>
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form id="contactForm" action="#" method="post">
+                    <!--   NAME OF CUSTOMER IS TAKEN AS INPUT  -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <!--   EMAIL ID OF CUSTOMER IS TAKEN AS INPUT  -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <!--   MESSAGE BOX TO TAKE THE DEATILS WHAT THEY WANT -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <!--  FEEDBACK SECTION WHERE WE HAVE A FEEDBACK FORM LINK WHICH WILL SEND THE GOOGLE RESPONCE    -->
+        <section id="feedback" class="fifthSection">
+            <br><br><br><br><br>
+            <h1>Feedback Section</h1><br>
+            <div>Please do give feedback</div>
+            <div>It helps us to improve</div>
+            <br><br>
+            <button><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc8b4Ae2np1odelpB3yiNbqtQfY-rLQlHKxq6gUP6uctM6JMA/viewform?usp=sf_link">Click
+                    here give feedback</a></button>
+        </section>
+    </main>
+    <!--      FOOTER SECTION WHERE WE HAVE LOGO, LINKS OF RESPECTIVE SOCIAL MEDIA AND MORE     -->
+    <footer>
+        <div class="footer">
+
+            <div class="footer-content">
+                <div class="footer-first">
+                    <h3>Manoj's Photography portfolio</h3>
+                </div>
+                <div class="footer-logo">
+                    <!-- Your photographer's logo or branding here -->
+                    <img src="images\lo.png" alt="Photographer Logo">
+                    <label>Manoj Studio</label>
+                </div>
+                <div class="footer-info">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Main St, City, Country</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Facebook</a></li>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#feedback">Feedback</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <!--   COPYRIGHT SECTION   -->
+        <div class="footer-rights">
+            Copyright &#169; Manojsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!--   A JAVASCRIPT WHICH MAKES THE ANIMATION IN THE HOME SECTION  -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['designer', 'artist','photographer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>

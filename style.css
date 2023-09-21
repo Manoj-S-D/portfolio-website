@@ -1,0 +1,464 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+  /*   background-image: url(https://source.unsplash.com/featured/?photographer/600x900);
+    background-repeat: repeat; Prevent image from repeating */
+    background-color: rgb(32, 32, 92);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+ nav{
+    background: #0082e6;
+    position: fixed;
+    padding: 10px 0; /* Add some padding for spacing */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Place it at the top of the viewport */
+    left: 0; /* Place it at the left edge */
+    right: 0; /* Place it at the right edge */
+    z-index: 1000;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+ .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    body{
+        background-color: rgb(24, 20, 102);
+    } 
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+    firstSection > div {
+        width: unset;
+    }
+    .rightSection{
+        width: 500vm;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  
+ main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+ }
+ .left{
+    font-size: 1.5rem;
+ }
+ .firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    height: 90vh;
+    align-items: center;
+ }
+ .firstSection > div{
+    width: 30%;
+
+ }
+ .leftSection{
+    font-size: 3rem;
+ }
+ .rightSection img{
+    width: 90%;
+    margin:50px 0;
+ }
+ .purple{
+    color: rgb(170,107,228);
+ }
+ .text_gray{
+    color: gray;
+ }
+ #element{
+    color: rgb(170,107,228);
+
+ }
+ .secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+ }
+ .secondSection h1{
+    font-size: 1.9rem;
+ }
+ .thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+ }
+/* About Section styles */
+#about1 {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.about-container, .about-text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.about-text div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+ padding: 0 30px;
+}
+
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about-photo img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+ 
+ .fourthSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+ }
+
+/* Style the Service Grid Section */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style each Service Item */
+.service-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the Service Images */
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the Service Labels */
+.service-item label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+/* Style for service list */
+.service-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-list li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #110b43;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust the padding to change button size */
+  background-color: #1e1bb7; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Text size */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+/* Hover effect */
+button:hover {
+  background-color: #6a77d8; /* Change the background color on hover */
+}
+
+/* Additional styles (customize as needed) */
+button.secondary {
+  background-color: #ccc; /* Secondary button color */
+  color: #cc2e2e;
+}
+/* Style for image gallery */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+ .fifthSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+ }
+ .fifthSection a{
+    font-style: none;
+ }
+ footer{
+    background-color: #141433;
+ 
+ }
+ .footer{
+    display: flex;
+    padding: 23px 0px;
+    justify-content: space-evenly;
+ }
+ .footer ul{
+    list-style: none;
+ }
+ footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+ }
+.footer-third ul li a{
+text-decoration: none;
+color: white;
+}
+
+ @media screen and (max-width: 1000px) {
+
+}
+ 
+
+
+/* Add some basic styling to the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #061d5b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form header */
+.container h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the form labels */
+.fourthSection label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style the form input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5189ea;
+    border-radius: 5px;
+    color: #0082e6;
+}
+
+/* Style the form submit button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the form submit button on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*ffffffffffffffffffffffffffffff*/
+/* Footer styles */
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo,.footer-info,.footer-social,.footer-first,.footer-third{
+    justify-content: space-evenly;
+    padding: 10px 65px;
+}
+
+.footer-info h3,
+.footer-social h3 {
+    font-size: 18px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin-bottom: 5px;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    color: #007BFF;
+}
